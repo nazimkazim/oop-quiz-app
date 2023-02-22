@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>OOP</title>
+  </head>
+  <body>
+    <div class="quiz-container">
+      <h1 id="quiz">Quiz Title</h1>
+      <canvas id="fireworks" width="200" height="100"></canvas>
+      <div id="question" class="question"></div>
+      <div class="choices-container">
+        <div id="choice0" class="choice"></div>
+        <div id="choice1" class="choice"></div>
+        <div id="choice2" class="choice"></div>
+        <div id="choice3" class="choice"></div>
+      </div>
+      <div id="progress" class="progress">
+        <div class="inner-progress">
+        </div>
+      </div>
+      <div id="score"></div>
+      <div class="buttons-container">
+        <button id="btn0" class="choice-button">A</button>
+        <button id="btn1" class="choice-button">B</button>
+        <button id="btn2" class="choice-button">C</button>
+        <button id="btn3" class="choice-button">D</button>
+      </div>
+    </div>
+    <audio id="sound-effect" src="eq_beep.mp3"></audio>
+    <script src="Quiz.js"></script>
+    <script src="Question.js"></script>
+    <script src="Firework.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
